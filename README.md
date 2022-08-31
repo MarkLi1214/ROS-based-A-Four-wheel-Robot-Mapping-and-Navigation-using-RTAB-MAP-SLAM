@@ -86,5 +86,5 @@ Subscribe topic \cme_vel to get the information and calculate the speed of each 
 
 The result of navigation in RVIZ would look something like that:
 
-
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/navigation.png)
 
