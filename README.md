@@ -67,5 +67,11 @@ You can install 'pcl-tools' to watch the saved point cloud later using:
 
 ## Navigation
 
-The main package for robot navigation is Move_base which is used to carry out the path planning to make the mobile robot reach the target point,according
-to the map and the target point information.
+The main package for robot navigation is Move_base which is used to carry out the path planning to make the mobile robot reach the target point according
+to the map and the target point information.The package maintains two cost maps for local and global planners: Local and Global costmaps, Local and Global planners.
+
+
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/move_base.png)
+
+Then subscribe topic /cmd_vel to get the linear speed and angular information of robot.
+
