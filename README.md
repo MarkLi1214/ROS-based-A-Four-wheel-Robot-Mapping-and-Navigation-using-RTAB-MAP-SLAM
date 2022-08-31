@@ -88,3 +88,4 @@ The result of navigation in RVIZ would look something like that:
 
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/navigation.png)
 
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/%E8%A7%86%E9%A2%91.gif?raw=true)
