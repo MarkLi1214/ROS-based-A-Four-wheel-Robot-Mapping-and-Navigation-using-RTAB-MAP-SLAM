@@ -17,3 +17,14 @@ respective ROS implementation
 **rtabmap_ros:** ```sudo apt-get install ros-kinetic-rtabmap-ros```
 
 **robot_localization:** ```sudo apt-get install ros-kinetic-robot-localization```
+
+**depthimage to laserscan** ```sudo apt-get install ros-melodic-depthimage-to-laserscan```
+
+# Running
+Hold the camera steady with a clear view and run the following command to turn on the camrea and rtabmap:
+
+```roslaunch realsense2_camera opensource_tracking_a.launch args:="--delete_db_on_start"```
+
+Wait a little for the system to fix itself.
+
+Then open and personalize Rviz ( A graphical tool that comes with ROS ) to monitor robot status
