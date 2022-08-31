@@ -45,6 +45,8 @@ Image->Image Topic: rewrite to /camera/color/image_raw
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/resule.png)
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/os_tracking_display_panel.jpg)
 
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/mapping.gif?raw=true)
+
 you can create a 2D map using:
 
 **Map server:** ```
@@ -88,4 +90,3 @@ The result of navigation in RVIZ would look something like that:
 
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/navigation.png)
 
-![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/%E8%A7%86%E9%A2%91.gif?raw=true)
