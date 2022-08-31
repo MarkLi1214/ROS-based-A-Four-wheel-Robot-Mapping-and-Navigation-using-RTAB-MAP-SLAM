@@ -73,5 +73,18 @@ to the map and the target point information.The package maintains two cost maps 
 
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/move_base.png)
 
-Then subscribe topic /cmd_vel to get the linear speed and angular information of robot.
+After configuring costamaps and planner files, we can see the information about the linear speed and angular of robot by using the command:
+
+
+```rostopic echo \cmd_vel```
+
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/cmd_vel.png)
+
+The values of linear and angular will change as the 2D Nav Goal changes and will change in real-time as the robot moves
+ 
+Subscribe topic \cme_vel to get the information and calculate the speed of each montor by using the kinematic model.
+
+The result of navigation in RVIZ would look something like that:
+
+
 
