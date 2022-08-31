@@ -42,3 +42,9 @@ From the Displays panel:
 Image->Image Topic: rewrite to /camera/color/image_raw
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/resule.png)
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/os_tracking_display_panel.jpg)
+
+you can create a 2D map using:
+
+```rosrun map_server map_saver map:=/rtabmap/proj_map –f mapname```
+
+and a resulting map would look something like that:
