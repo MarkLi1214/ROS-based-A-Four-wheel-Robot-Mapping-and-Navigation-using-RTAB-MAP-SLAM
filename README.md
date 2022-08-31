@@ -42,10 +42,11 @@ Map: 2D grid map
 You may want to watch the on-line video as well:
 From the Displays panel:
 Image->Image Topic: rewrite to /camera/color/image_raw
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/mapping.gif?raw=true)
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/resule.png)
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/os_tracking_display_panel.jpg)
 
-![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/mapping.gif?raw=true)
+
 
 you can create a 2D map using:
 
@@ -87,6 +88,8 @@ The values of linear and angular will change as the 2D Nav Goal changes and will
 Subscribe topic \cme_vel to get the information and calculate the speed of each montor by using the kinematic model.
 
 The result of navigation in RVIZ would look something like that:
+
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/navigation.gif?raw=true)
 
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/navigation.png)
 
