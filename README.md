@@ -41,3 +41,4 @@ You may want to watch the on-line video as well:
 From the Displays panel:
 Image->Image Topic: rewrite to /camera/color/image_raw
 ![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/resule.png)
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/os_tracking_display_panel.jpg)
