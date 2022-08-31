@@ -21,6 +21,8 @@ respective ROS implementation
 **depthimage to laserscan** ```sudo apt-get install ros-melodic-depthimage-to-laserscan```
 
 # Running
+## Mapping
+
 Hold the camera steady with a clear view and run the following command to turn on the camrea and rtabmap:
 
 ```roslaunch realsense2_camera opensource_tracking_a.launch args:="--delete_db_on_start"```
@@ -45,6 +47,25 @@ Image->Image Topic: rewrite to /camera/color/image_raw
 
 you can create a 2D map using:
 
+**Map server:** ```
+
 ```rosrun map_server map_saver map:=/rtabmap/proj_map –f mapname```
 
 and a resulting map would look something like that:
+
+![](https://github.com/MarkLi1214/ROS-based-A-Four-wheel-Robot-Mapping-and-Navigation-using-RTAB-MAP-SLAM/blob/main/image/map_demo_final.png)
+
+You can save the point cloud using:
+
+```rosrun pcl_ros pointcloud_to_pcd input:=/rtabmap/cloud_map```
+
+You can install 'pcl-tools' to watch the saved point cloud later using:
+
+```pcl_viewer 1543906154413083.pcd```
+
+[Install using: ```sudo apt-get install pcl-tools```]
+
+## Navigation
+
+The main package for robot navigation is Move_base which is used to carry out the path planning to make the mobile robot reach the target point,according
+to the map and the target point information.
