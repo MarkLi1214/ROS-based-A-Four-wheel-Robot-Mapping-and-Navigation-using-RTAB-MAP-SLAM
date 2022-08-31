@@ -1,0 +1,2 @@
+move_test:t265_robot_navigation/jackal_navigation:t265_robot_navigation/occupancy:t265_robot_navigation/robot:t265_robot_navigation/robot_description:t265_robot_navigation/rur_navigation
+-DCATKIN_DEVEL_PREFIX=/home/jetson/realsense_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/realsense_ws/install -G Unix Makefiles

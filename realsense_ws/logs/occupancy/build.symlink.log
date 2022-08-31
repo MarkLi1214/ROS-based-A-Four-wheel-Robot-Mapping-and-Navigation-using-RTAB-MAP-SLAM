@@ -1,0 +1,4 @@
+Symlinking /home/jetson/realsense_ws/devel/share/occupancy/cmake/occupancyConfig.cmake
+Symlinking /home/jetson/realsense_ws/devel/share/occupancy/cmake/occupancyConfig-version.cmake
+Symlinking /home/jetson/realsense_ws/devel/lib/occupancy/occupancy_node
+Symlinking /home/jetson/realsense_ws/devel/lib/pkgconfig/occupancy.pc

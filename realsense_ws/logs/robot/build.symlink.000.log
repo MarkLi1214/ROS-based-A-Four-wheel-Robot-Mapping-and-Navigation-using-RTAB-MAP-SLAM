@@ -1,0 +1,3 @@
+Symlinking /home/jetson/realsense_ws/devel/share/robot/cmake/robotConfig.cmake
+Symlinking /home/jetson/realsense_ws/devel/share/robot/cmake/robotConfig-version.cmake
+Symlinking /home/jetson/realsense_ws/devel/lib/pkgconfig/robot.pc
