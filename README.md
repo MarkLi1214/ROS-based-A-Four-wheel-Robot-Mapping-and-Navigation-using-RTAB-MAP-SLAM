@@ -50,7 +50,7 @@ Image->Image Topic: rewrite to /camera/color/image_raw
 
 you can create a 2D map using:
 
-**Map server:** ```
+**Map server:** 
 
 ```rosrun map_server map_saver map:=/rtabmap/proj_map –f mapname```
 
